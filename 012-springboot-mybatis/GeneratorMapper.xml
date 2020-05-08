@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--指定连接数据库的jdbc驱动包所在位置，指定到本机完整路径-->
+    <classPathEntry location="D:\mysql\mysql-connector-java-8.0.17.jar"/>
+    <!--配置table表信息内容体，targetRuntime指定采用Mybatis3版本-->
+    <context id="tables" targetRuntime="mybatis3">
+        <!-- 抑制生成注释，由于生成注释都是英文的，可以不让其生成 -->
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 -->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!-- 数据库连接信息：驱动类 ，连接地址，用户名，密码-->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/springbootlearn?nullCatalogMeansCurrent=true"
+                        userId="root"
+                        password="wmz211.">
+        </jdbcConnection>
+
+        <!-- 默认值 -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 生成的实体类的存放位置 -->
+        <javaModelGenerator targetPackage="com.wmz.springboot.bean"
+                            targetProject="src/main/java">
+            <!-- enableSubPackages：是否让schema作为包的后缀 -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!-- 生成的Mapper映射文件（XML）的存放位置 -->
+        <sqlMapGenerator targetPackage="com.wmz.springboot.mapper"
+                         targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <!-- 生成的mapper接口(JAVA文件)的存放位置 -->
+        <javaClientGenerator targetPackage="com.wmz.springboot.mapper"
+                             type="XMLMAPPER" targetProject="src/main/java">
+            <property name="enableSubPackages" value="false"/>
+        </javaClientGenerator>
+
+        <!-- 指定数据库表 -->
+        <table tableName="student" domainObjectName="Student"
+               enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false"/>
+
+    </context>
+</generatorConfiguration>

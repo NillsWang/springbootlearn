@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/001-springboot-first/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-springboot-springmvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-springboot-context-path/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-springboot-properties-yml-yaml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-springboot-allboth-properties-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-springboot-multi-environment-properties/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-springboot-multi-environment-yml/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/008-springboot-custom-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-springboot-custom-configuration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-springboot-jsp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-springboot-myself/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-mybatis/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
