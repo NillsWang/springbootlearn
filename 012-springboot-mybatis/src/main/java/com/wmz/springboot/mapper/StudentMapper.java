@@ -1,7 +1,9 @@
 package com.wmz.springboot.mapper;
 
 import com.wmz.springboot.bean.Student;
+import org.apache.ibatis.annotations.Mapper;
 
+@Mapper
 public interface StudentMapper {
     int deleteByPrimaryKey(Integer id);
 
