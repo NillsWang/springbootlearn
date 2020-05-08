@@ -14,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/010-springboot-jsp/010-springboot-jsp.iml" filepath="$PROJECT_DIR$/010-springboot-jsp/010-springboot-jsp.iml" />
       <module fileurl="file://$PROJECT_DIR$/011-springboot-myself/011-springboot-myself.iml" filepath="$PROJECT_DIR$/011-springboot-myself/011-springboot-myself.iml" />
       <module fileurl="file://$PROJECT_DIR$/012-springboot-mybatis/012-springboot-mybatis.iml" filepath="$PROJECT_DIR$/012-springboot-mybatis/012-springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/014-springboot-mybatis3/014-springboot-mybatis3.iml" filepath="$PROJECT_DIR$/014-springboot-mybatis3/014-springboot-mybatis3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/015-springboot-mybatis4/015-springboot-mybatis4.iml" filepath="$PROJECT_DIR$/015-springboot-mybatis4/015-springboot-mybatis4.iml" />
     </modules>
   </component>
 </project>

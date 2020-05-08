@@ -6,18 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="003-springboot-context-path" />
-        <module name="011-springboot-myself" />
-        <module name="007-springboot-multi-environment-yml" />
         <module name="008-springboot-custom-configuration" />
-        <module name="001-springboot-first" />
-        <module name="012-springboot-mybatis" />
         <module name="002-springboot-springmvc" />
-        <module name="004-springboot-properties-yml-yaml" />
-        <module name="005-springboot-allboth-properties-yml" />
-        <module name="009-springboot-custom-configuration" />
-        <module name="006-springboot-multi-environment-properties" />
         <module name="010-springboot-jsp" />
+        <module name="011-springboot-myself" />
+        <module name="003-springboot-context-path" />
+        <module name="001-springboot-first" />
+        <module name="007-springboot-multi-environment-yml" />
+        <module name="014-springboot-mybatis3" />
+        <module name="012-springboot-mybatis" />
+        <module name="006-springboot-multi-environment-properties" />
+        <module name="015-springboot-mybatis4" />
+        <module name="004-springboot-properties-yml-yaml" />
+        <module name="009-springboot-custom-configuration" />
+        <module name="005-springboot-allboth-properties-yml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -33,6 +35,9 @@
       <module name="010-springboot-jsp" target="11" />
       <module name="011-springboot-myself" target="11" />
       <module name="012-springboot-mybatis" target="11" />
+      <module name="014-springboot-mybatis3" target="11" />
+      <module name="014-springboot-mybatis3 (1)" target="11" />
+      <module name="015-springboot-mybatis4" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +54,9 @@
       <module name="010-springboot-jsp" options="-parameters" />
       <module name="011-springboot-myself" options="-parameters" />
       <module name="012-springboot-mybatis" options="-parameters" />
+      <module name="014-springboot-mybatis3" options="-parameters" />
+      <module name="014-springboot-mybatis3 (1)" options="-parameters" />
+      <module name="015-springboot-mybatis4" options="-parameters" />
     </option>
   </component>
 </project>
