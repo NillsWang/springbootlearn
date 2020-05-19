@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="017-springboot-springmvc" />
+        <module name="019-springboot-redis" />
         <module name="008-springboot-custom-configuration" />
         <module name="002-springboot-springmvc" />
         <module name="010-springboot-jsp" />
@@ -20,6 +22,8 @@
         <module name="004-springboot-properties-yml-yaml" />
         <module name="009-springboot-custom-configuration" />
         <module name="005-springboot-allboth-properties-yml" />
+        <module name="018-springboot-restful" />
+        <module name="016-springboot-transcation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
@@ -38,6 +42,10 @@
       <module name="014-springboot-mybatis3" target="11" />
       <module name="014-springboot-mybatis3 (1)" target="11" />
       <module name="015-springboot-mybatis4" target="11" />
+      <module name="016-springboot-transcation" target="11" />
+      <module name="017-springboot-springmvc" target="11" />
+      <module name="018-springboot-restful" target="11" />
+      <module name="019-springboot-redis" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -57,6 +65,10 @@
       <module name="014-springboot-mybatis3" options="-parameters" />
       <module name="014-springboot-mybatis3 (1)" options="-parameters" />
       <module name="015-springboot-mybatis4" options="-parameters" />
+      <module name="016-springboot-transcation" options="-parameters" />
+      <module name="017-springboot-springmvc" options="-parameters" />
+      <module name="018-springboot-restful" options="-parameters" />
+      <module name="019-springboot-redis" options="-parameters" />
     </option>
   </component>
 </project>

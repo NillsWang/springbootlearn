@@ -18,6 +18,10 @@
         <option value="$PROJECT_DIR$/012-springboot-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/014-springboot-mybatis3/pom.xml" />
         <option value="$PROJECT_DIR$/015-springboot-mybatis4/pom.xml" />
+        <option value="$PROJECT_DIR$/016-springboot-transcation/pom.xml" />
+        <option value="$PROJECT_DIR$/017-springboot-springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/018-springboot-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/019-springboot-redis/pom.xml" />
       </list>
     </option>
   </component>
