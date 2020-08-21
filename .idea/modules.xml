@@ -20,6 +20,10 @@
       <module fileurl="file://$PROJECT_DIR$/017-springboot-springmvc/017-springboot-springmvc.iml" filepath="$PROJECT_DIR$/017-springboot-springmvc/017-springboot-springmvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/018-springboot-restful/018-springboot-restful.iml" filepath="$PROJECT_DIR$/018-springboot-restful/018-springboot-restful.iml" />
       <module fileurl="file://$PROJECT_DIR$/019-springboot-redis/019-springboot-redis.iml" filepath="$PROJECT_DIR$/019-springboot-redis/019-springboot-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/020-springboot-dubbo-interface/020-springboot-dubbo-interface.iml" filepath="$PROJECT_DIR$/020-springboot-dubbo-interface/020-springboot-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/021-springboot-dubbo-provider/021-springboot-dubbo-provider.iml" filepath="$PROJECT_DIR$/021-springboot-dubbo-provider/021-springboot-dubbo-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/022-springboot-dubbo-consumer/022-springboot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/022-springboot-dubbo-consumer/022-springboot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" filepath="$PROJECT_DIR$/040-springboot-thymeleaf-first/040-springboot-thymeleaf-first.iml" />
     </modules>
   </component>
 </project>

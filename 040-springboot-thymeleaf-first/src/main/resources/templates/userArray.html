@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1" cellspacing="0" >
+    <tr>
+        <td>num</td>
+        <td>index</td>
+        <td>id</td>
+        <td>userName</td>
+    </tr>
+    <!--
+    user当前循环变量
+    userStat表示当前循环对象状态的变量，可以不写默认是对象名称+Stat
+    ${users}当前循环的集合
+    -->
+<!--    <tr th:each="user,userStat:${users}" -->
+    <tr th:each="user:${users}" >
+        <td th:text="${userStat.count}">count</td>
+        <td th:text="${userStat.index}">index</td>
+        <td th:text="${user.id}">id</td>
+        <td th:text="${user.userName}">userName</td>
+    </tr>
+</table>
+</body>
+</html>

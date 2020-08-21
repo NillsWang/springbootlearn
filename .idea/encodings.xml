@@ -19,6 +19,10 @@
     <file url="file://$PROJECT_DIR$/017-springboot-springmvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/018-springboot-restful/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/019-springboot-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/020-springboot-dubbo-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/021-springboot-dubbo-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/022-springboot-dubbo-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/040-springboot-thymeleaf-first/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

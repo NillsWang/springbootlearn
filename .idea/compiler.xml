@@ -11,16 +11,20 @@
         <module name="008-springboot-custom-configuration" />
         <module name="002-springboot-springmvc" />
         <module name="010-springboot-jsp" />
+        <module name="022-springboot-dubbo-consumer" />
+        <module name="006-springboot-multi-environment-properties" />
+        <module name="021-springboot-dubbo-provider" />
         <module name="011-springboot-myself" />
         <module name="003-springboot-context-path" />
         <module name="001-springboot-first" />
         <module name="007-springboot-multi-environment-yml" />
         <module name="014-springboot-mybatis3" />
         <module name="012-springboot-mybatis" />
-        <module name="006-springboot-multi-environment-properties" />
+        <module name="020-springboot-dubbo-interface" />
         <module name="015-springboot-mybatis4" />
         <module name="004-springboot-properties-yml-yaml" />
         <module name="009-springboot-custom-configuration" />
+        <module name="040-springboot-thymeleaf-first" />
         <module name="005-springboot-allboth-properties-yml" />
         <module name="018-springboot-restful" />
         <module name="016-springboot-transcation" />
@@ -46,6 +50,10 @@
       <module name="017-springboot-springmvc" target="11" />
       <module name="018-springboot-restful" target="11" />
       <module name="019-springboot-redis" target="11" />
+      <module name="020-springboot-dubbo-interface" target="11" />
+      <module name="021-springboot-dubbo-provider" target="11" />
+      <module name="022-springboot-dubbo-consumer" target="11" />
+      <module name="040-springboot-thymeleaf-first" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -69,6 +77,9 @@
       <module name="017-springboot-springmvc" options="-parameters" />
       <module name="018-springboot-restful" options="-parameters" />
       <module name="019-springboot-redis" options="-parameters" />
+      <module name="021-springboot-dubbo-provider" options="-parameters" />
+      <module name="022-springboot-dubbo-consumer" options="-parameters" />
+      <module name="040-springboot-thymeleaf-first" options="-parameters" />
     </option>
   </component>
 </project>

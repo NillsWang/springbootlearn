@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--
+    标准变量表达式 ${} 和el表达式中的${}相同，用于访问容器中的上下问环境变量用于th:标签内
+    thymeleaf中的${} 可以获取controller中Model中的数据
+-->
+<div th:text="${user.id}"></div>
+<div th:text="${user.userName}"></div>
+<!--
+    选择变量表达式 *{} 必须使用th:object标签内
+    使用*来绑定的对象${user}(不推荐)
+-->
+<div th:object="${user}">
+    用户编号<span th:text="*{id}"></span><br>
+    用户姓名<span th:text="*{userName}"></span>
+</div>
+<!--路径表达式@{..}-->
+<a th:href="@{http://www.baidu.com}">点击访问百度</a>
+<a th:href="@{/message}">跳转至message</a>
+<!--路径表达式传递多个参数时-->
+<a th:href="@{/url(id=1001,userName='李四')}">跳转至url</a>
+<!--路径表达式RESTful时-->
+<a th:href="@{'/url/'1001}">跳转至url</a>
+</body>
+</html>

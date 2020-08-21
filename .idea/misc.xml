@@ -22,10 +22,14 @@
         <option value="$PROJECT_DIR$/017-springboot-springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/018-springboot-restful/pom.xml" />
         <option value="$PROJECT_DIR$/019-springboot-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/020-springboot-dubbo-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/021-springboot-dubbo-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/022-springboot-dubbo-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/040-springboot-thymeleaf-first/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_14" default="false" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="false" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
